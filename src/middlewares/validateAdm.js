@@ -1,5 +1,5 @@
 const validateAdm = (req, res, next) => {
-    const { nome, email, senha } = req.body;
+    const { nome, email, idade, senha } = req.body;
 
     if (!nome || typeof nome !== 'string') {
         // 400 -> Bad request

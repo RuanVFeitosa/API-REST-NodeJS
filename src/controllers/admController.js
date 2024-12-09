@@ -1,4 +1,4 @@
-const admService = require("../services/admService")
+const admService = require("../services/admServices")
 
 admControllers = {
     create: async (req, res) => {
