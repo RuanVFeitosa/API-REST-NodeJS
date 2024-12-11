@@ -5,5 +5,8 @@ const router = Router();
 
 router.use('/user', userRoutes);
 router.use('/adm', admRoutes);
+router.use('/notify', userRoutes);
+router.use('/account', admRoutes);
+router.use('/trasitions', admRoutes);
 
 module.exports = router;

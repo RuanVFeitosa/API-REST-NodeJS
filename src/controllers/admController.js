@@ -43,7 +43,7 @@ admControllers = {
             })
         } catch {
             return res.status(500).json({
-                message: "Ocorreu um erro no Servidor   "
+                message: "Ocorreu um erro no Servidor"
             })
         }
     },
