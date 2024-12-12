@@ -60,7 +60,7 @@ admControllers = {
                 message: "admistrador encontrado ",
                 adm
             })
-        } catch (error) {
+        } catch (error) {   
             return res.status(500).json({
                 message: "Ocorreu um erro no Servidor"
             })
